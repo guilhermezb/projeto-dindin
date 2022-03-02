@@ -67,3 +67,48 @@ body {
   text-decoration: none;
   padding: 5px 10px;
 }
+
+.comecar-agora {
+  margin: 80px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  gap: 80px;
+  background-color: #F7F7F7;
+  padding: 80px;
+}
+
+.comecar-agora div img {
+  width: 275px;
+  height: 275px;
+  margin-bottom: 30px;
+}
+
+.comecar-agora div h3 {
+  color: #FF4081;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.comecar-agora div p {
+  margin: 0 0 40px 0;
+  font-weight: normal;
+  font-size: 17px;
+  width: 350px;
+  text-align: center;
+}
+
+.comecar-agora div a {
+  color: #FFFFFF;
+  background-color: #FF4081;
+  font-size: 20px;
+  font-weight: normal;
+  border: 2px solid #FF4081;
+  border-radius: 50px;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
