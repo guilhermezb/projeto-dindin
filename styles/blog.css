@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu";
+}
+
+.header-dindin {
+  background-color: #2e948a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  height: 80px;
+  padding: 16px 80px;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 140px;
+}
+
+.navegacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fdfdfd;
+  margin-left: 40px;
+}
+
+.container-banner {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.banner-blog{
+  width: 30%;
+  margin: 4% 0 0 5%;
+}
+
+.banner-blog h1{
+  color: #009688;
+  font-size: 3rem;  
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.banner-blog p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #000000;
+}
+
+.container-links{
+  background-color: #F6F6F6;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 10%;
+}
+
+.post-links{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;    
+}
+
+.post-links a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.post-links img{
+  width: 520px;
+  height: 260px;
+}
+
+.post-links h4{
+  color: #FF4081;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 0;    
+}
+
+.post-links p{
+  font-size: 17px;
+  width: 500px;
+  font-weight: 300;
+}
+
+.footer {
+  background-color: #419488;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  padding: 26px 80px;
+  font-size: 20px;
+  margin-top: 40px;
+  
+}
+
+.nav-footer {
+  list-style: none;
+  text-align: left;
+}
+
+.nav-item {
+  margin: 0 0 20px 0;
+}
+
+.nav-item a {
+  margin: 0;
+}
+
+.button {
+  border: 2px solid #ffffff;
+  border-radius: 60px;
+  padding: 10px 32px;
+  box-sizing: border-box;
+  text-align: center;
+}
