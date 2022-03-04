@@ -152,11 +152,17 @@
 }
 }
 
-@media (max-width: 420px) {
+@media (max-width:570px) {
   .banner-blog {
-display: none;
+    display: none;
+  }
+  .post-links img, h4, p {
+    max-width: 400px;
 }
-.post-links img, h4, p {
-  max-width: 300px;
 }
+
+@media (max-width: 450px) {
+  .post-links img, h4, p {
+    max-width: 300px;
+  }
 }
