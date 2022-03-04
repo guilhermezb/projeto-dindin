@@ -131,10 +131,24 @@
   margin: 0;
 }
 
+.nav-item-link {
+  margin: 0 0 20px 0;
+}
+
+.nav-item-link a {
+  margin: 0;
+}
+
 .button {
   border: 2px solid #ffffff;
   border-radius: 60px;
   padding: 10px 32px;
   box-sizing: border-box;
   text-align: center;
+}
+
+@media (max-width:768px) {
+  .contato-img {
+      display: none;
+  }
 }

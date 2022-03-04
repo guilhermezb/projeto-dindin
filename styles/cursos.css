@@ -39,7 +39,7 @@
 .principal h1 {
   font-weight: 700;
   font-size: 60px;
-  color: #FF4081;
+  color: #ff4081;
   margin: 5% 0 1% 5%;
 }
 
@@ -52,7 +52,7 @@
 .container-lista {
   display: flex;
   flex-direction: column;
-  padding: 2.5%;    
+  padding: 2.5%;
   margin-bottom: 10%;
   gap: 5%;
   justify-content: space-around;
@@ -62,7 +62,7 @@
   display: flex;
   padding: 2.5%;
   height: 80%;
-  border-bottom: 5px solid #C4C4C4;
+  border-bottom: 5px solid #c4c4c4;
   margin-bottom: 5%;
 }
 
@@ -74,7 +74,7 @@
 .container-lista div h2 {
   font-weight: 700;
   font-size: 35px;
-  color: #FF4081;
+  color: #ff4081;
 }
 
 .conteudo {
@@ -95,7 +95,7 @@
 .conteudo a {
   width: 25%;
   font-size: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #419488;
   text-align: center;
   text-decoration: none;
@@ -111,7 +111,6 @@
   padding: 26px 80px;
   font-size: 20px;
   margin-top: 40px;
-  
 }
 
 .nav-footer {
@@ -127,6 +126,14 @@
   margin: 0;
 }
 
+.nav-item-link {
+  margin: 0 0 20px 0;
+}
+
+.nav-item-link a {
+  margin: 0;
+}
+
 .button {
   border: 2px solid #ffffff;
   border-radius: 60px;
@@ -134,3 +141,44 @@
   box-sizing: border-box;
   text-align: center;
 }
+
+@media (max-width: 960px) {
+  .principal p {
+    font-size: 14px;
+  }
+  .principal h1 {
+    font-size: 40px;
+  }
+  .container-lista div img {
+    max-width: 260px;
+    max-height: 260px;
+  }
+  .container-lista div h2 {
+    font-size: 20px;
+  }
+  .conteudo a {
+    width: 12%;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 640px) {
+  .principal p {
+    font-size: 10px;
+  }
+  .principal h1 {
+    font-size: 40px;
+  }
+  .container-lista div img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+  .container-lista div h2 {
+    font-size: 20px;
+  }
+  .conteudo a {
+    width: 12%;
+    font-size: 8px;
+  }
+}
+

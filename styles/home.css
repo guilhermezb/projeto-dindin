@@ -266,10 +266,79 @@ h4 {
   margin: 0;
 }
 
+.nav-item-link {
+  margin: 0 0 20px 0;
+}
+
+.nav-item-link a {
+  margin: 0;
+}
+
 .button {
   border: 2px solid #ffffff;
   border-radius: 60px;
   padding: 10px 32px;
   box-sizing: border-box;
   text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  
+  .ilustra {
+    display: none;
+  }
+  .comecar-agora  {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+ .about-us {
+   flex-direction: column;
+   flex-wrap: wrap;
+ }
+ .sessao-final {
+  flex-direction: column;
+  flex-wrap: wrap;
+ }
+ .nav-item-link a {
+   display: none;
+ }
+ .footer img {
+  width: 100%;
+}
+.footer {
+  flex-direction: column;
+}
+.nav-footer {
+  font-size: 20px;
+}
+}
+
+@media (max-width:700px) {
+  .header-dindin img {
+    max-width: 180px;
+  }
+}
+
+@media (max-width: 420px) {
+ .navegacao a {
+  display: none;
+ }
+ .container h1 {
+   font-size: 40px;
+   width: 350px;
+ }
+ #button-posts a {
+   font-size: 15px;
+ }
+ 
+ .footer img {
+   width: 80%;
+ }
+ .footer {
+   flex-direction: column;
+ }
+ .nav-footer {
+   font-size: 16px;
+ }
 }

@@ -85,7 +85,6 @@
   gap: 5%;
 }
 
-
 #videos-aula .videos div h2 {
   font-weight: 700;
   font-size: 35px;
@@ -133,10 +132,51 @@
   margin: 0;
 }
 
+.nav-item-link {
+  margin: 0 0 20px 0;
+}
+
+.nav-item-link a {
+  margin: 0;
+}
+
 .button {
   border: 2px solid #ffffff;
   border-radius: 60px;
   padding: 10px 32px;
   box-sizing: border-box;
   text-align: center;
+}
+
+@media (max-width: 1000px) {
+  #videos-aula .videos div p{
+font-size:12px ;
+display: inline;
+}
+#videos-aula .videos div h2 {
+  font-size: 20px;
+}
+}
+
+@media (max-width:768px) {
+  iframe {
+    max-width:360px ;
+    max-height: 200px;
+  }
+.ilustra-banner img {
+  display: none;
+}
+.ilustra-banner div h1 {
+  text-align: center;
+  margin: 0 auto;
+}
+.ilustra-banner div p {
+  text-align: justify;
+  margin-left: 4.5rem;
+}
+.videos {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 }
