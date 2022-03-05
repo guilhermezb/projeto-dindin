@@ -1,6 +1,6 @@
-@import "/CSS/home.css";
-@import "/CSS/cursos.css";
-@import "/CSS/curso.css";
-@import "/CSS/blog.css";
-@import "/CSS/post.css";
-@import "/CSS/contato.css";
+@import "./home.css";
+@import "./cursos.css";
+@import "./curso.css";
+@import "./blog.css";
+@import "./post.css";
+@import "./contato.css";
